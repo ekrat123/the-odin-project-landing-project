@@ -1,1 +1,1 @@
-# the-odin-preject-landing-project
+# Landing-project

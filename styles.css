@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+body {
+    /* max-width: 900px; */
+    margin: 0 auto;
+    height: 100vh;
+}
+header {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 80px 60px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.nav1 {
+    font-weight: 24px;
+    color: #F9FAF8;
+}
+ul {
+    display: flex;
+    gap: 20px;
+}
+a {
+    font-weight: 18px;
+    color: #E5E7EB;
+}
+.head {
+    display: flex;
+    gap: 20px;
+}
+.head-left {
+    flex:1 1 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.head-right {
+    flex:1 1 50%;
+    background-color: #6D747D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 5px;
+}
+button {
+    width: 80px;
+    padding: 5px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+
+}
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+p {
+    font-weight: 18px;
+    color: #E5E7EB;
+}
+.nav1 {
+    font-weight: 24px;
+    color: #F9FAf8;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+.card {
+    width: 15%;
+}
+.cards {
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+    align-items: center;
+}
+.cards p {
+    color: #1c314a;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    margin: 40px 0;
+    font-size: 36px;
+    font-weight: 700;
+    color: #1F2937;
+}
+.second {
+    background-color: #E5E7EB;
+    width: 100%;
+    margin-top: 40px;
+}
+.second p {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+ .second .name {
+    font-size: 36px;
+    color: #1F2937;
+    text-align: right;
+    padding-bottom: 100px;
+    padding-top: 10px;
+    font-weight: 600;
+
+}
+.foot {
+    width: 80%;
+    background-color: #3882F6;
+    margin: 50px auto;
+    padding: 40px 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+footer p {
+    color: white;
+}
+footer h3 {
+    color: white;
+}
+.foot button {
+    width: 120px;
+    border: 2px solid white;
+    font-size: 1.25rem;
+}
+.copy {
+    background-color:#1F2937 ;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copy p {
+    font-size: 20px;
+}
